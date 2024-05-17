@@ -497,6 +497,28 @@ a:hover {
   padding: 12px 0;
 }
 
+/* Style for the Download CV link */
+.download-cv {
+  background-color: white;
+  color: black !important; 
+  border-radius: 25px;
+  padding: 0.1rem 0.5rem !important; 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  margin-left: 1rem;
+  border: 2px solid transparent;
+  transition: background-color 0.3s, border-color 0.3s; /* Smooth transitions */
+}
+
+.download-cv:hover {
+  background-color: #f1f1f1;
+  border-color: black;
+  color: black !important; /* Ensure the text color remains black on hover */
+  text-decoration: none; /* Ensure no underline on hover */
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -564,7 +586,7 @@ a:hover {
 .navbar li:hover>a:before,
 .navbar .active:before {
   visibility: visible;
-  width: 80%;
+  width: 100%;
 }
 
 .navbar a:hover,
